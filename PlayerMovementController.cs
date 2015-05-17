@@ -77,6 +77,8 @@
 
 		void Start ()
 		{
+			this.tag = "Player";
+
 			this.movementScript = this.GetComponent<MovementScript> ();
 			this.animator = this.GetComponent<Animator> ();
 
